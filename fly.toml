@@ -17,7 +17,7 @@ kill_timeout = '5s'
   AUTOSTOP_TIMEOUT_INIT = '120'
   ENABLE_AUTOSTOP = 'TRUE'
   EULA = 'TRUE'
-  MEMORY = '1G'
+  MEMORY = '800M'
   SERVER_PORT = '25565'
   VERSION = '1.21.1'
 
@@ -39,6 +39,6 @@ kill_timeout = '5s'
     soft_limit = 20
 
 [[vm]]
-  memory = '2gb'
+  memory = '1gb'
   cpu_kind = 'shared'
   cpus = 2
