@@ -18,7 +18,8 @@ kill_timeout = '5s'
   ENABLE_AUTOSTOP = 'TRUE'
   EULA = 'TRUE'
   MEMORY = '1G'
-  PRIMARY_REGION = 'lhr'
+  SERVER_PORT = '25565'
+  VERSION = '1.21.1'
 
 [[mounts]]
   source = 'mc_server'
@@ -40,4 +41,4 @@ kill_timeout = '5s'
 [[vm]]
   memory = '2gb'
   cpu_kind = 'shared'
-  cpus = 4
+  cpus = 2
